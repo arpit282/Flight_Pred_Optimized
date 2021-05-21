@@ -30,3 +30,9 @@
 - Mean Square Score:  3568305.4385348638
 - Root Mean Square Error:  1888.995881026442
 
+
+### How to work on this:
+- Clone the repository
+- Create an environment
+- Activate this environment
+- Then use **"python app.py"**
