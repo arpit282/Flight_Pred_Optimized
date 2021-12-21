@@ -1,0 +1,33 @@
+body{
+    background:url('http://snacksafely.com/wp-content/uploads/2015/09/airplane-flight-sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+        background-color:rgba(0,0,0,0.2) !important;
+        color:#fff;
+      }
+
+.jumbotron-fluid{
+         background: url('https://yourmileagemayvary.net/wp-content/uploads/2020/12/Screen-Shot-2020-12-28-at-6.15.41-PM-e1609197674766.png' );
+         background-repeat:no-repeat;
+         background-size:cover;
+         background-position:bottom;
+
+    }
+.navbar{
+                width: 100%;
+                /* background:linear-gradient(45deg, #00BABA,#166e64, #00BABA,#298b80, #00BABA,#2a867c) !important ; */
+                background:linear-gradient(-45deg, #EE7752,#E73C7E, #23A6D5,#23D5AB) ;
+                /* background: url('https://images.pexels.com/photos/2110951/pexels-photo-2110951.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260'); */
+                background-size: 400% 400%;
+                position: relative;
+                animation: change 5s ease-in-out infinite;
+            }
+
+            @keyframes change{
+                0%{background-position: 0 50%}
+                50%{background-position: 100% 50%}
+                100%{background-position: 0 50%}
+            }
