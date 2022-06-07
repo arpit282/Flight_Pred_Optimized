@@ -1,33 +1,11 @@
 body{
-    background:url('http://snacksafely.com/wp-content/uploads/2015/09/airplane-flight-sunset.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23cce6ee' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%2399cddd' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2366b5cc' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23339cbb' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%230083AA' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .card{
-        background-color:rgba(0,0,0,0.2) !important;
+        background-color:rgba(0,0,0,.6) !important;
         color:#fff;
       }
-
-.jumbotron-fluid{
-         background: url('https://yourmileagemayvary.net/wp-content/uploads/2020/12/Screen-Shot-2020-12-28-at-6.15.41-PM-e1609197674766.png' );
-         background-repeat:no-repeat;
-         background-size:cover;
-         background-position:bottom;
-
-    }
-.navbar{
-                width: 100%;
-                /* background:linear-gradient(45deg, #00BABA,#166e64, #00BABA,#298b80, #00BABA,#2a867c) !important ; */
-                background:linear-gradient(-45deg, #EE7752,#E73C7E, #23A6D5,#23D5AB) ;
-                /* background: url('https://images.pexels.com/photos/2110951/pexels-photo-2110951.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260'); */
-                background-size: 400% 400%;
-                position: relative;
-                animation: change 5s ease-in-out infinite;
-            }
-
-            @keyframes change{
-                0%{background-position: 0 50%}
-                50%{background-position: 100% 50%}
-                100%{background-position: 0 50%}
-            }
